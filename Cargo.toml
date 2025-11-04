@@ -1,0 +1,11 @@
+[package]
+name = "idea_doc_creator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+chrono = "0.4.42"
+clap = { version = "4.5.51", features = ["derive"] }
+colored = "3.0.0"
+ctrlc = "3.5.1"
