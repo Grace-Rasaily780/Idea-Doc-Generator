@@ -20,7 +20,7 @@ You can install `idea_doc_creator` from this repository:
 
 ```bash 
 git clone https://github.com/Grace-Rasaily780/Idea-Doc-Generator
-cargo build release
+cargo build --release
 cd target/release
 ./idea_doc_creator
 ```
